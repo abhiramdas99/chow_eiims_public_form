@@ -20,21 +20,15 @@ public class DbConnect {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	
 	
-	/********************************************************
-	 * CONNECT TO CLOUD DB FROM LOCAL APPLIATION SERVER
-	 *********************************************************/
-	static final String DB_URL = "jdbc:mysql://35.200.234.184/chow_eiims_public_form"; //default database;
-	static final String USER = "chow_eiims";
-	static final String PASS = "dFkEqcNsGAgKIEtz";
+
 	
 	/********************************************************
 	 * CONNECT TO LOCAL DB FROM LOCAL HOST a
 	 *********************************************************/
-//	static final String DB_URL = "jdbc:mysql://localhost/chow_eiims_public_form"; //default database;
-//	static final String USER = "chow_eiims";
-//	static final String PASS = "dFkEqcNsGAgKIEtz";
-//	static final String USER = "admin";
-//	static final String PASS = "abc";
+	static final String DB_URL = "jdbc:mysql://localhost/chow_eiims_public_form"; //default database;
+	static final String USER = "root";
+	static final String PASS = "";
+
 
 	
 	public static Connection getConnection()
