@@ -13,6 +13,6 @@ local.properties
 .classpath
 .settings/
 .loadpath
-# src/chow_eiims_public_form/DbConnect.java
+src/chow_eiims_public_form/DbConnect.java
 build/
 target/
